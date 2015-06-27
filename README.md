@@ -16,7 +16,8 @@ The Android Channel project is split up into two projects, [client](https://gith
 Before you build, you need to update your project properties so that ant can find your {sdk.dir}. -p requires path for your client root folder.
 ```
 % android update project -p ./
-This is easy peasy. We use ant.
+```
+Then it is easy peasy. We use ant.
 ```
 % ant debug
 ```
